@@ -1,0 +1,134 @@
+.section7 {
+  width: 100vw;
+  height: 1800px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.section7-heading {
+  position: relative;
+  width: 740px;
+  height: 150px;
+  top: -750px;
+}
+.section7-heading > h1 {
+  font-size: 70px;
+  color: white;
+}
+.section7-heading > h1 > span {
+  color: rgba(235, 255, 37, 1);
+}
+.section7-box {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  top: 300px;
+  left: 450px;
+}
+.small-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 400px;
+  top: 70px;
+}
+.small-container > b {
+  margin-top: 5px;
+  color: white;
+}
+.small-container > p {
+  margin-top: 10px;
+  color: wheat;
+}
+.small-container > button {
+  background-color: rgba(212, 249, 56, 1);
+  width: 190px;
+  height: 48px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.small-container > img {
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+/* -------------2nd box------------------ */
+.section7-box2 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  top: 800px;
+  left: 450px;
+}
+.small-container2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 400px;
+  top: 70px;
+}
+.small-container2 > b {
+  margin-top: 5px;
+  color: white;
+}
+.small-container2 > p {
+  margin-top: 10px;
+  color: wheat;
+}
+.small-container2 > button {
+  background-color: rgba(212, 249, 56, 1);
+  width: 190px;
+  height: 48px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.small-container2 > img {
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+/* ----------------3rd box----------------------- */
+.section7-box3 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  top: 1300px;
+  left: 450px;
+}
+.small-container3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 400px;
+  top: 70px;
+}
+.small-container3 > b {
+  margin-top: 5px;
+  color: white;
+}
+.small-container3 > p {
+  margin-top: 10px;
+  color: wheat;
+}
+.small-container3 > button {
+  background-color: rgba(212, 249, 56, 1);
+  width: 190px;
+  height: 48px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.small-container3 > img {
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}

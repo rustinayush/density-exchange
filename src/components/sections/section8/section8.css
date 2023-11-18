@@ -1,0 +1,47 @@
+.section8 {
+  width: 100vw;
+  height: 900px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.section8-top {
+  width: 40%;
+  height: 200px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+.section8-top > h1 {
+  font-size: 70px;
+  color: white;
+}
+.section8-body > .top-of-body {
+  width: 40%;
+  height: 180px;
+  border: 1px solid black;
+  position: absolute;
+  left: 450px;
+  top: 250px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section8-body > .top-of-body > img {
+  width: 55px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.bottom-of-body {
+  position: absolute;
+  left: 450px;
+  top: 450px;
+}

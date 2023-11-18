@@ -1,0 +1,14 @@
+.section2 {
+  width: 100%;
+  height: 1200px;
+  background-color: black;
+  position: relative;
+}
+/* .section2-box {
+  position: absolute;
+  left: 500px;
+} */
+.section2-box > img {
+  margin-left: 600px;
+  margin-top: 50px;
+}

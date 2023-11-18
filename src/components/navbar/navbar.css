@@ -1,0 +1,55 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  gap: 387px;
+  background-color: rgba(1, 23, 4, 0.9);
+  position: relative;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.logo {
+  display: flex;
+  position: absolute;
+  left: 140px;
+  top: 10px;
+}
+.logo > img {
+  width: 20px;
+  height: 20px;
+}
+.logo > h4 {
+  width: 99.95px;
+  height: 24px;
+  color: goldenrod;
+}
+.top-nav {
+  position: absolute;
+  left: 900px;
+  top: 10px;
+  display: flex;
+}
+.top-nav > .text-container {
+  color: #fff;
+  display: flex;
+  font-size: 14px;
+  /* margin: 10px; */
+}
+.text-container > p {
+  margin: 3px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.trade-logo {
+  width: 100px;
+  height: 30px;
+  /* background-color: rgba(212, 249, 56, 1) rgba(50, 216, 117, 1); */
+  background: linear-gradient(85.85deg, #d4f938 23.09%, #32d875 108.69%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
