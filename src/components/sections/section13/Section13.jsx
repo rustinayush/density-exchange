@@ -1,6 +1,6 @@
 import React from 'react'
 import './section13.css'
-import mobileImage from '../../../assets/vector.png'
+import mobileImage from '../../../assets/Vector.png'
 import mobileInside from '../../../assets/mobile-inside.png'
 const Section13 = () => {
     return (
